@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📱 OTP Login System — Frontend Only (Next.js + Tailwind CSS)
 
-## Getting Started
+A responsive phone number OTP login system built using **Next.js App Router** and **Tailwind CSS**. This app simulates authentication with dynamic 6-digit OTPs, protected routes, and token-based session handling — all in the **frontend** (no backend required).
 
-First, run the development server:
+---
+
+## 🛠 Setup Instructions
 
 ```bash
+git clone https://github.com/raghub-github/OPT-AUTH.git
+cd OPT-AUTH
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Features
 
-## Learn More
+- 📲 Phone number input with validation
+- 🔢 Dynamic 6-digit OTP generation (mocked)
+- 🔐 OTP verification and login simulation
+- 👤 Auth-protected profile page with logout
+- 💾 LocalStorage-based token/session
+- ✅ Fully responsive UI using Tailwind CSS
+- 🚫 No backend or database required
+- 🌟 Toast notifications for feedback
+- 🗂️ Clean modular folder structure
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Additional Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com)
+- Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for optimized font loading ([Geist](https://vercel.com/font))
+- Start editing by modifying `app/page.js` — hot reload enabled
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Learn More
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+---
+
+## 🚀 Deploy on Vercel
+
+Deploy instantly on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+See [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
